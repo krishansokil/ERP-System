@@ -1,3 +1,45 @@
 1. git init
 2. git status
 3. git add .
+4. git commit -m "Initial commit"
+   
+if fatal error comes like:
+
+$ git commit -m "Initial commit"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Krishan Sokil@DESKTOP-MGS5GCI.(none)')
+
+5. Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+6. git remote add origin Paste Repository Git SSH Link
+7. git push origin master
+
+if error found
+then
+
+8. git push origin master --force
+
+if error found could not read repository or permission denied
+then
+i. go to your account setting
+ii. then developer setting
+iii. then personal access tokens
+iv. and generate token and give access to this token
+v. copy yout token
+
+9. then git remote set-url paste your https repo url and after https:// paste your generated token and add @
+10. git push origin master
