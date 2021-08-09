@@ -42,7 +42,7 @@
             <td>". $row['branch'] . "</td>
             <td>". $row['semester'] . "</td>
             <td>". $row['notes'] . "</td>
-            <td><button class=btn-outline-primary><a href='notes/".$row['notes']."'download=".$row['notes'].">Download</a></button></td>";
+            <td><a class='btn btn-sm btn-primary' href='notes/".$row['notes']."'download=".$row['notes'].">Download</a></button></td>";
             // } 
         }
               ?>

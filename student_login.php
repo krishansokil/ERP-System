@@ -162,7 +162,7 @@ body {
         <div class="input-box"> 
           <input type="submit" name="Sign-in" value="Login">
         </div>
-        <a href="#">Forget Password</a>
+        <!-- <a href="#">Forget Password</a> -->
         <a href ="student_signup.php"type="submit" class="btn btn-success btn-block" >Are You new Here Please Signup</a>
        </form>
      </div>

@@ -227,7 +227,7 @@ body{
                                 <i class="fas fa-envelope b-font"></i>
                             </div>
                             <div class="form-group">
-                                <input class="form-control" placeholder="Phone Number" type="number" id="phone" name="phone"
+                                <input class="form-control" placeholder="Phone Number" type="tel" id="phone" name="phone"pattern="[789][0-9]{9}"
                                     required>
                                     <i class="fas fa-comments b-font"></i>
                             </div>

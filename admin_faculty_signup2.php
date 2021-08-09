@@ -103,19 +103,19 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                   <h1 style='color: black;'>Accept Feculty</h1>
                   <div class='form-group'>
                       <label for='name'style='color: black;'>Name:</label>
-                      <input type='text'value='". $row['full_name']."' class='form-control' id='name' name='name' required >
+                      <input type='text'value='". $row['full_name']."' class='form-control' id='name' name='name' required Readonly>
                     </div>
                     <div class='form-group'>
                       <label for='email'style='color: black;'>Email:</label>
-                      <input type='email' value='". $row['email']."'class='form-control'name='email' id='email' required >
+                      <input type='email' value='". $row['email']."'class='form-control'name='email' id='email' required Readonly>
                     </div>
                     <div class='form-group'>
                       <label for='mobile'style='color: black;'>Mobile:</label>
-                      <input type='number' value='". $row['phone']."'class='form-control'name='mobile' id='mobile' required >
+                      <input type='number' value='". $row['phone']."'class='form-control'name='mobile' id='mobile' required Readonly>
                     </div>
               <div class='form-group'>
                 <label for='image'style='color: black;'>Image:</label>
-                <input type='text' value='". $row['image']."'class='form-control'name='image' id='image' >
+                <input type='text' value='". $row['image']."'class='form-control'name='image' id='image' Readonly>
               </div>";
                   }
                   ?>

@@ -19,7 +19,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             //   header("location: faculty_fill_attendance.php");
             }
             if (!in_array($extension, ['zip', 'pdf', 'docx','png'])) {
-                echo "You file extension must be .zip, .pdf or .docx";
+                // echo "You file extension must be .zip, .pdf or .docx";
             }
             if (move_uploaded_file($_FILES['image']['tmp_name'], $target)) {
                 $msg = "Time Table uploaded successfully";

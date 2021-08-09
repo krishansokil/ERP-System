@@ -104,15 +104,15 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                   <h1 style='color: black;'>Accept Student</h1>
                   <div class='form-group'>
                       <label for='name'style='color: black;'>Name:</label>
-                      <input type='text'value='". $row['name']."' class='form-control' id='name' name='name' required >
+                      <input type='text'value='". $row['name']."' class='form-control' id='name' name='name' required Readonly>
                     </div>
                     <div class='form-group'>
                       <label for='email'style='color: black;'>Email:</label>
-                      <input type='email' value='". $row['email']."'class='form-control'name='email' id='email' required >
+                      <input type='email' value='". $row['email']."'class='form-control'name='email' id='email' required Readonly>
                     </div>
                     <div class='form-group'>
                       <label for='rollno'style='color: black;'>Roll No.:</label>
-                      <input type='text' value='". $row['rollno']."'class='form-control'name='rollno' id='rollno' required >
+                      <input type='text' value='". $row['rollno']."'class='form-control'name='rollno' id='rollno' required Readonly>
                     </div>
                     <div class='form-group'>
                 <label for='password'style='color: black;'>Password</label>
@@ -120,47 +120,47 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
               </div>
                     <div class='form-group'>
                       <label for='dob'style='color: black;'>DOB:</label>
-                      <input type='date' value='". $row['dob']."'class='form-control'name='dob' id='dob' required >
+                      <input type='date' value='". $row['dob']."'class='form-control'name='dob' id='dob' required Readonly>
                     </div>
                     <div class='form-group'>
                       <label for='mobile'style='color: black;'>Mobile:</label>
-                      <input type='number' value='". $row['mobile']."'class='form-control'name='mobile' id='mobile' required >
+                      <input type='number' value='". $row['mobile']."'class='form-control'name='mobile' id='mobile' required Readonly>
                     </div>
                     <div class='form-group'>
                     <label for='gender'style='color: black;'>Mobile:</label>
-                    <input type='text' value='". $row['gender']."'class='form-control'name='gender' id='gender' required >
+                    <input type='text' value='". $row['gender']."'class='form-control'name='gender' id='gender' required Readonly>
                   </div>
                     <div class='form-group'>
                       <label for='address'style='color: black;'>Address:</label>
-                      <input type='text' value='". $row['address']."'class='form-control'name='address' id='address' required >
+                      <input type='text' value='". $row['address']."'class='form-control'name='address' id='address' required Readonly>
                     </div>
                     <div class='form-group'>
                       <label for='state'style='color: black;'>State:</label>
-                      <input type='text' value='". $row['state']."'class='form-control'name='state' id='state' required >
+                      <input type='text' value='". $row['state']."'class='form-control'name='state' id='state' required Readonly>
                     </div>
                     <div class='form-group'>
                       <label for='country'style='color: black;'>Contury:</label>
-                      <input type='text' value='". $row['country']."'class='form-control'name='country' id='country' required >
+                      <input type='text' value='". $row['country']."'class='form-control'name='country' id='country' required Readonly>
                     </div>
                     <div class='form-group'>
                       <label for='pincode'style='color: black;'>Pincode:</label>
-                      <input type='text' value='". $row['pincode']."'class='form-control'name='pincode' id='pincode' required >
+                      <input type='text' value='". $row['pincode']."'class='form-control'name='pincode' id='pincode' required Readonly>
                     </div>
                     <div class='form-group'>
                     <label for='course'style='color: black;'>Course</label>
-                    <input type='text' value='". $row['course']."'class='form-control'name='course' id='course' required >
+                    <input type='text' value='". $row['course']."'class='form-control'name='course' id='course' required Readonly>
                   </div>
                   <div class='form-group'>
                   <label for='branch'style='color: black;'>Branch</label>
-                  <input type='text' value='". $row['branch']."'class='form-control'name='branch' id='branch' required >
+                  <input type='text' value='". $row['branch']."'class='form-control'name='branch' id='branch' required Readonly>
                 </div>
                 <div class='form-group'>
                 <label for='semester'style='color: black;'>Semester</label>
-                <input type='text' value='". $row['semester']."'class='form-control'name='semester' id='semester' required >
+                <input type='text' value='". $row['semester']."'class='form-control'name='semester' id='semester' required Readonly>
               </div>
               <div class='form-group'>
                 <label for='image'style='color: black;'>Mobile:</label>
-                <input type='text' value='". $row['image']."'class='form-control'name='image' id='image' >
+                <input type='text' value='". $row['image']."'class='form-control'name='image' id='image' Readonly>
               </div>";
                   }
                   ?>

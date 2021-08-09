@@ -139,7 +139,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                     </div>
                     <div class="form-group">
                       <label>Mobile Number:</label>
-                      <input type="number" class="form-control" id="mobile" name="mobile" placeholder="Enter Valid Phone Number (Ex. 8448444853)" required>
+                      <input type="tel" class="form-control" id="mobile" name="mobile" placeholder="Enter Valid Phone Number"pattern="[789][0-9]{9}" required>
                     </div>
                     <div class="form-group">
                       <label>Gender:</label>
